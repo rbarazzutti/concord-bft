@@ -2,12 +2,12 @@
 
 This Dockerfile (and the script file provided with it) follows the build recipe of Concord-BFT project (see [README](https://github.com/vmware/concord-bft/blob/master/README.md)).
 
-This Docker image's aims to provide a quick test and build tool for the curious programmers with the help of Docker.
+This Docker image's aims to provide a quick test and build tool.
 
 Build the image
 ----
 
-    docker build -t concord-bft .
+    docker build -t concord-bft -f docker/Dockerfile .
 
 Run the image
 ----
